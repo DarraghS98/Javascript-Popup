@@ -1,0 +1,161 @@
+/* The Modal (background) */
+.register {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.rcontent {
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align:center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.login {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.lcontent {
+    background-color: #fff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align:center;
+}
+
+/* The Close Button */
+.lclose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.lclose:hover,
+.lclose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    margin:auto;
+    display:block;
+    text-align:center;
+    padding:1%;
+    margin-bottom:.5em;
+}
+
+#submit {
+    display:block;
+    text-align:center;
+    border:.1em black solid;
+    border-radius:.5em;
+    padding:1%;
+}
+
+header {
+    width:100%;
+    color:#fff;
+    padding-top:1em;
+    padding-bottom:1%;
+    background-color:#24292e;
+}
+header h1 {
+    text-align:left;
+    font-size:150%;
+    display:inline;
+}
+header a {
+    text-align:left;
+    margin:5%;
+    display:inline;
+    text-decoration: none;
+    color:#fff;
+}
+header a:hover{
+    color:#0080ff;
+    font-size:120%;
+}
+main {
+    text-align:center;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+#head {
+    background-image: url("head.jpg");
+    background-size:cover;
+    min-height:30em;
+}
+
+#head h1 {
+        margin:0%;
+        padding-top:10%;
+        font-size:300%;
+}
+
+#rbtn {
+    margin-top:10%;
+    margin-right:55%;
+    padding:2%;
+    background-color:#24292e;
+    color:#fff;
+    font-size:200%;
+    transition: all .2s ease-in-out;
+}
+#rbtn:hover { 
+    transform: scale(1.1); 
+}
+
+#lbtn {
+    padding:2%;
+    background-color:#24292e;
+    color:#fff;
+    font-size:200%;
+    transition: all .2s ease-in-out;
+}
+#lbtn:hover { 
+    transform: scale(1.1); 
+}
